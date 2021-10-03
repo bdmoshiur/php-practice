@@ -16,7 +16,7 @@
         <input type="number" name="lnum"id="lnum" placeholder="Enter The Last Number">
         <br>
         <br>
-        <input type="submit" value="Send">
+        <input type="submit" name="btn" value="Send">
     </form>
 </body>
 </html>

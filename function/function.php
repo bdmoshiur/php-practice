@@ -1,5 +1,7 @@
 <?php
 
+if ($_POST['btn']) {
+    
 $fnum = $_POST['fnum'];
 $lnum = $_POST['lnum'];
 
@@ -21,4 +23,8 @@ function sumTwoValue( $a, $b = 5 ) {
 
 $test2 = sumTwoValue(8);
 
-echo "Two sum Function Added " . $test1 + $test2;
+echo "Two sum Function Added: " . $test1 + $test2;
+} else {
+
+    header('location: form.php');
+}
